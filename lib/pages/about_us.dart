@@ -57,7 +57,7 @@ class AboutUs extends StatelessWidget {
             
                 SizedBox(height: 15,),
             
-                Text("Developed By: SMAIT TECHNOLOGY",
+                Text("Developed By: Sakchyam Dhaurali",
                 textAlign: TextAlign.justify,
                   style: TextStyle(
                     fontWeight: FontWeight.bold,
@@ -67,32 +67,7 @@ class AboutUs extends StatelessWidget {
                 ),
                 SizedBox(height: 10,),
             
-                  Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-                       Text("Team Members:",
-                      style: TextStyle(
-                        fontWeight: FontWeight.bold,
-                        fontSize: 24,
-                        color: Colors.white60,
-                      ),
-                      ),
-                      Text("Santosh Adhikari",
-                      style: TextStyle(
-                        fontWeight: FontWeight.bold,
-                        fontSize: 24,
-                        color: Colors.white60,
-                      ),
-                      ),
-                       Text("Sakchyam Dhaurali",
-                      style: TextStyle(
-                        fontWeight: FontWeight.bold,
-                        fontSize: 24,
-                        color: Colors.white60,
-                      ),
-                      ),
-                    ],
-                  ),
+                
               ],
             ),
           ),
