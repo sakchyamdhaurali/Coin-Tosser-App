@@ -36,17 +36,17 @@ class AboutUs extends StatelessWidget {
               children: [
             
                 Container(
-                  child: Text("Top IT Solutions Backed by 10 Years of Experience — SMAIT Software Partnership",
+                  child: Text("Dhaurali Software",
                   textAlign: TextAlign.justify,
                   style: TextStyle(
                     fontWeight: FontWeight.bold,
-                    fontSize: 24,
+                    fontSize: 20,
                     color: Colors.white,
                   ),
                   ),
                 ),
                 SizedBox(height: 15,),
-                Text("We specialize in software development, including mobile apps and web solutions. We cater to startups, SMBs, and enterprises with bespoke native and cross-platform solutions designed to fuel their growth. Our expert mobile app developers stay ahead of market trends to innovate and craft apps that enhance engagement and modernity. Our solutions are tailored to meet industry-specific needs, helping businesses achieve their desired user retention rates.",
+                Text("Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
                 textAlign: TextAlign.justify,
                  style: TextStyle(
                   fontWeight: FontWeight.normal,
@@ -67,7 +67,32 @@ class AboutUs extends StatelessWidget {
                 ),
                 SizedBox(height: 10,),
             
-                
+                  // Column(
+                  //   crossAxisAlignment: CrossAxisAlignment.start,
+                  //   children: [
+                  //      Text("Team Members:",
+                  //     style: TextStyle(
+                  //       fontWeight: FontWeight.bold,
+                  //       fontSize: 24,
+                  //       color: Colors.white60,
+                  //     ),
+                  //     ),
+                  //     Text("Santosh Adhikari",
+                  //     style: TextStyle(
+                  //       fontWeight: FontWeight.bold,
+                  //       fontSize: 24,
+                  //       color: Colors.white60,
+                  //     ),
+                  //     ),
+                  //      Text("Sakchyam Dhaurali",
+                  //     style: TextStyle(
+                  //       fontWeight: FontWeight.bold,
+                  //       fontSize: 24,
+                  //       color: Colors.white60,
+                  //     ),
+                  //     ),
+                  //   ],
+                  // ),
               ],
             ),
           ),
