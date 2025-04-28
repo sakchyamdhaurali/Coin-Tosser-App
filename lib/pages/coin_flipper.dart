@@ -203,7 +203,7 @@ class _CoinFlipperState extends State<CoinFlipper>
                   child: Column(
                     children: [
                       Text(
-                        '© 2024 SMAIT Technology.',
+                        '© Dhaurali Software',
                         textAlign: TextAlign.justify,
                         style: GoogleFonts.poppins(
                           color: Colors.grey[600],
